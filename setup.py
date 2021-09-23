@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = '0.9.10'
+__version__ = '0.9.11'
 
 setup(
     name='simpleeval',
@@ -9,10 +9,10 @@ setup(
     description='A simple, safe single expression evaluator library.',
     long_description=open('README.rst', 'r').read(),
     long_description_content_type='text/x-rst',
-    author='Daniel Fairhead',
-    author_email='danthedeckie@gmail.com',
-    url='https://github.com/danthedeckie/simpleeval',
-    download_url='https://github.com/danthedeckie/simpleeval/tarball/' + __version__,
+    author='IVR Technology Group',
+    author_email='developers@ivrtechnology.com',
+    url='https://github.com/IVRTech/simpleeval/',
+    download_url='https://github.com/IVRTech/simpleeval/releases/tag/' + __version__,
     keywords=['eval', 'simple', 'expression', 'parse', 'ast'],
     test_suite='test_simpleeval',
     classifiers=['Development Status :: 4 - Beta',
